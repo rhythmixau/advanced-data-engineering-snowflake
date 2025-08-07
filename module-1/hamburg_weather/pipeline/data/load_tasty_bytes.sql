@@ -292,6 +292,7 @@ raw zone table load
 
 USE WAREHOUSE demo_build_wh;
 
+-- That was a mistake pushing to main
 
 -- country table load
 COPY INTO {{env}}_tasty_bytes.raw_pos.country
